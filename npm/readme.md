@@ -30,8 +30,11 @@ node_modules 目录是 Node.js 查找模块的地方，即使 `node_modules/foo.
 假设由这么一种依赖场景：
 
 App --> A:v1.0, B:v1.0
+
 A   --> C:v2.0
+
 B   --> C:v1.0
+
 
 那么最终 App 依赖的 C 版本是多少呢？
 
